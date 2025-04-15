@@ -1,0 +1,82 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 66px 353px;
+    /* 半透明の背景 */
+    box-shadow: 4px 4px 4px #8b7969;
+    display: none;
+    /* 初期状態は非表示 */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    width: 805px;
+    max-height: 858px;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    position: relative;
+    border: none;
+}
+
+
+.close-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal-button{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.delete-button {
+    background-color: #a94728;
+    width: 100px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.modal-table {
+    width: 90%;
+    margin: 70px auto;
+    margin-bottom: 20px;
+
+}
+
+
+.modal-table th {
+    width: 30%;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px 16px;
+    white-space: nowrap;
+    color: #8b7969;
+    vertical-align: top;
+}
+
+.modal-table td {
+    width: 70%;
+    padding: 8px 0;
+    color: #8b7969;
+}
+
+.modal-td-2 {
+    width: 70%;
+    padding: 8px 0;
+    color: #8b7969;
+    font-family: Georgia,'Times New Roman';
+}
